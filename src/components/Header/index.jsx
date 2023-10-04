@@ -67,7 +67,7 @@ useEffect(() => {
               ></i>
               <a
               target="blank"
-                href="https://harlequin-sandie-64.tiiny.site/CV.pdf"
+                href="https://docs.google.com/document/d/1zYjFqmmGMVR6l_jX3aXRyecAaXKQftLsYBE5bP5vKJ4/edit?usp=sharing"
                 download="CV.pdf"
               >
                 <button
