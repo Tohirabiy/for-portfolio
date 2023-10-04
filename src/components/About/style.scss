@@ -1,0 +1,164 @@
+.vvb {
+    position: relative;
+    width: 440px;
+    height: 520px;
+  }
+  
+  .top-imageg {
+    width: 400px !important;
+    height: 480px;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 20;
+  }
+  .abouto{
+    gap: 0 192px; 
+  }
+  .bottom-imageg {
+    width: 400px !important;
+    height: 480px;
+    background: #8c9baf;
+    object-fit: cover;
+    position: absolute;
+    top: 8%;
+    right: 20%;
+    // left: 190px;
+  }
+  .buttonof{
+    font-family: Inter-Medium;
+  }
+  
+  .bordiringa{
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .hhe {
+    font-family: Inter-Semibold;
+    color: var(--gray-900, #111827);
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 36px; /* 120% */
+    letter-spacing: -0.6px;
+  }
+  
+  .pda{
+    font-family: Inter-Regular;
+    width: 95%;
+    margin-bottom: 16px;
+    color: var(--gray-600, #4B5563);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px; /* 150% */
+  }
+  
+  .columns {
+    
+    display: flex;
+    justify-content: space-between;
+    /* Optionally, you can add some styling for spacing and alignment */
+    gap: 20px; /* Adjust the gap as needed */
+  }
+  
+  .column {
+    flex: 1;
+  }
+  
+  .bsdd{
+    width: 24px !important;
+  height: 24px !important;
+  flex-shrink: 0;
+  border-radius: 20px;
+  background: #070807;
+  }
+  
+
+
+  
+  @media only screen and (max-width: 769px) {
+    .top-imageg{
+      width: 280px !important;
+      height: 360px !important;
+      top: 0 !important;
+      right: 0 !important;
+      z-index: 20 !important;
+  }
+  .bottom-imageg{
+      width: 280px !important;
+      height: 360px !important;
+      top: 8% !important;
+      left: -10% !important;
+  }
+  .abouto{
+    display: flex !important;
+        align-items: center !important; 
+        flex-direction: column; 
+  }
+  .vvb {
+    position: relative;
+    width: 400px !important;
+    height: 520px;
+  }
+
+
+  .hhe {
+    color: var(--gray-900, #111827);
+    font-size: 26px !important;
+    font-style: normal;
+    font-weight: 550 !important;
+    line-height: 30px !important;  /* 120% */
+    letter-spacing: -0.6px;
+  }
+
+  
+  }
+
+
+    
+  @media only screen and (max-width: 576px) {
+    .top-imageg{
+      width: 405px !important;
+      height: 410px !important;
+      top: 0 !important;
+      right: 0 !important;
+      z-index: 20 !important;
+  }
+  .bottom-imageg{
+      width: 300px !important;
+      height: 400px !important;
+      top: 8% !important;
+      left: -10% !important;
+  }
+  .abouto{
+    gap: 20px !important; 
+  }
+  .vvb {
+    position: relative;
+    width: 300px !important;
+    height: 520px;
+  }
+
+
+  .hhe {
+    color: var(--gray-900, #111827);
+    font-size: 26px !important;
+    font-style: normal;
+    font-weight: 550 !important;
+    line-height: 30px !important;  /* 120% */
+    letter-spacing: -0.6px;
+  }
+.middle{
+
+  margin-top: 24px !important;
+}
+.bottom{
+
+  margin-top: 24px !important;
+}
+  
+
+  }
